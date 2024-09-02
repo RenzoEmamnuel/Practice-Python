@@ -52,20 +52,6 @@ def double_char(s):
     x = s.lower()
     for i in x :
         print (str(i)*2,end="")
-def double_chars(s):
-    word = ''
-    for i in s :
-        word = word+(i*2)
-    return word
-def minimum(arr):
-    return min(arr)
-def maximum(arr):
-    return max(arr)
-def check(seq, elem):
-    if elem in seq:
-        return True
-    else:
-        return False
 def switch_it_up(number):
     words = {
         0: "Zero",
@@ -88,6 +74,20 @@ def between(a,b):
     return i
 def move(position, roll):
     return roll*2+position
+def double_chars(s):
+    word = ''
+    for i in s :
+        word = word+(i*2)
+    return word
+def minimum(arr):
+    return min(arr)
+def maximum(arr):
+    return max(arr)
+def check(seq, elem):
+    if elem in seq:
+        return True
+    else:
+        return False
 def strCount(string, letter):
     print (string.count(letter))
 def get_age(age):
@@ -118,3 +118,19 @@ def get_count(sentence):
         if i in vowels:
             count += 1
     return count
+def sum_mix (arr:int)->int:
+    count = 0
+    for i in arr:
+        count += i
+    return count
+def reverse (string:str)->str:
+    return string[::-1]
+def ends_with (text:str,ending:str)->str:
+    return ends_with(text,ending)
+def capitals(word:str)->str:
+    return [x for x,y in enumerate(word) if y.isupper()]
+def get_grade(*grades):
+    mean = sum(grades) / len(grades)
+    for score, grade in [(90, 'A'), (80, 'B'), (70, 'C'), (60, 'D'), (0, 'F')]:
+        if mean >= score:
+            return grade
