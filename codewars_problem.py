@@ -134,3 +134,14 @@ def get_grade(*grades):
     for score, grade in [(90, 'A'), (80, 'B'), (70, 'C'), (60, 'D'), (0, 'F')]:
         if mean >= score:
             return grade
+def square_sum(numbers):
+    return sum([x ** 2 for x in numbers])
+def twice_as_old(dad_years_old, son_years_old):
+    x = son_years_old *2
+    y = dad_years_old - x
+    return abs(y)
+def get_char(c):
+  return chr(c)
+def rot13(message):
+    import codecs
+    return codecs.encode(message, 'rot_13')
