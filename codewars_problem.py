@@ -145,3 +145,13 @@ def get_char(c):
 def rot13(message):
     import codecs
     return codecs.encode(message, 'rot_13')
+def duplicate_encode(word):
+    word = word.lower()
+    new = ""
+
+    for i in word:
+        if word.count(i) > 1:
+            new += ")"
+        else:
+            new += "("
+    return new
