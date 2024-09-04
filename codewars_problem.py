@@ -155,3 +155,5 @@ def duplicate_encode(word):
         else:
             new += "("
     return new
+def order(sentence):
+    return " ".join(sorted(sentence.split(), key=min))
