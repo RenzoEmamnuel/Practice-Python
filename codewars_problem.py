@@ -157,3 +157,5 @@ def duplicate_encode(word):
     return new
 def order(sentence):
     return " ".join(sorted(sentence.split(), key=min))
+def goals(*l):
+    return sum(l)
