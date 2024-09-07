@@ -159,3 +159,5 @@ def order(sentence):
     return " ".join(sorted(sentence.split(), key=min))
 def goals(*l):
     return sum(l)
+def find_it(seq):
+    return sum(i for i in set(seq) if seq.count(i) % 2 == 1)
