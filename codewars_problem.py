@@ -172,3 +172,26 @@ def likes(names):
         return f"{names [0]}, {names [1]} and {names [2]} like this"
     else:
         return f"{names [0]}, {names [1]} and {len(names)-2} others like this"
+#codechump competition
+def camel(text):
+    word =""
+    for i in text:
+        if i.isupper():
+            word += " "
+            word += i.lower()
+        else:
+            word += i.upper()
+    return word
+def ada(text):
+    return text.count("ada")
+
+
+def ml(x):
+    dict_ck = {
+
+    }
+    for i in x:
+        dict_ck[i] = dict_ck.get(i, 0) + 1
+    return f"You can have {min(dict_ck.values())} team/s"
+
+
