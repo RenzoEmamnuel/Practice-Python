@@ -184,14 +184,16 @@ def camel(text):
     return word
 def ada(text):
     return text.count("ada")
+def ml(team):
+    dict_team = {}
 
+    for i in team:
+        dict_team[i] = dict_team.get(i, 0) + 1
 
-def ml(x):
-    dict_ck = {
+    if len(dict_team.values()) < 5:
+        return f"You can have 0 teams"
+    else:
+        return f"You can have {min(dict_team.values())}"
 
-    }
-    for i in x:
-        dict_ck[i] = dict_ck.get(i, 0) + 1
-    return f"You can have {min(dict_ck.values())} team/s"
 
 
