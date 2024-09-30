@@ -203,3 +203,5 @@ def zero_fuel(distance_to_pump, mpg, fuel_left):
     return True  if fuel_left*mpg >= distance_to_pump else False
 def abbrevName(name):
     return '.'.join(x[0].upper() for x in name.split())
+def odd_or_even(arr):
+    return "even" if sum(arr) %2 == 0 else "odd"
