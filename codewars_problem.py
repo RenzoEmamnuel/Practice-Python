@@ -205,3 +205,5 @@ def abbrevName(name):
     return '.'.join(x[0].upper() for x in name.split())
 def odd_or_even(arr):
     return "even" if sum(arr) %2 == 0 else "odd"
+def validate_pin(pin):
+    return len(pin) in (4,6) and pin.isdigit()
