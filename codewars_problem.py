@@ -194,9 +194,12 @@ def ml(team):
         return f"You can have 0 teams"
     else:
         return f"You can have {min(dict_team.values())}"
+    -------------------------------------
 def sum_two_smallest_number(numbers) :
     return sum(sorted(numbers[:2]))
 def filter_list(l):
     return [x for x in l if isinstance(x, int)]
-
-
+def zero_fuel(distance_to_pump, mpg, fuel_left):
+    return True  if fuel_left*mpg >= distance_to_pump else False
+def abbrevName(name):
+    return '.'.join(x[0].upper() for x in name.split())
