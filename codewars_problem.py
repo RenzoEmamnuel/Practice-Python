@@ -207,3 +207,5 @@ def odd_or_even(arr):
     return "even" if sum(arr) %2 == 0 else "odd"
 def validate_pin(pin):
     return len(pin) in (4,6) and pin.isdigit()
+def find_short(s):
+    return min(len(x) for x in s.split())
