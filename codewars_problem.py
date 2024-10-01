@@ -218,3 +218,7 @@ def printer_error(s):
     return f"{count}/{len(s)}"
 def is_uppercase(inp):
     return inp == inp.upper()
+def maps(a):
+    return [i+i for i in a]
+def solution(nums):
+    return [] if nums == None else sorted(nums)
