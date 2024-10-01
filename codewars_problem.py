@@ -209,3 +209,12 @@ def validate_pin(pin):
     return len(pin) in (4,6) and pin.isdigit()
 def find_short(s):
     return min(len(x) for x in s.split())
+def printer_error(s):
+    acceptable = "abcdefghijklm"
+    count = 0
+    for i in s:
+        if i not in acceptable:
+            count += 1
+    return f"{count}/{len(s)}"
+def is_uppercase(inp):
+    return inp == inp.upper()
