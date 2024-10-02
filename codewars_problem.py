@@ -226,3 +226,6 @@ def solution(nums):
 def sum_str(a, b):
     return str(int(a or 0) + int(b or 0)) ##
 #-----
+def get_sum(a,b):
+    return sum(range(min(a, b), max(a, b) + 1))
+    
