@@ -228,4 +228,9 @@ def sum_str(a, b):
 #-----
 def get_sum(a,b):
     return sum(range(min(a, b), max(a, b) + 1))
-    
+# write the function is_anagram
+def is_anagram(test, original):
+    return sorted(test.upper()) == sorted(original.upper()) 
+# not done 
+def reverse_words(text):
+    return " ".join([i [::-1] for i in text.split()])
