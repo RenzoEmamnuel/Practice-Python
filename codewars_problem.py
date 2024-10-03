@@ -231,6 +231,15 @@ def get_sum(a,b):
 # write the function is_anagram
 def is_anagram(test, original):
     return sorted(test.upper()) == sorted(original.upper()) 
+    # another way 
+    def lib_checkr(word1,word2):
+    word = {}
+    for i in word1.lower():
+        word[i]=word.get(i,0)+1
+    wordd = {}
+    for b in word2.lower():
+        wordd[b]=wordd.get(b,0)+1
+    return word == wordd
 # not done 
 def reverse_words(text):
-    return " ".join([i [::-1] for i in text.split()])
+    return "".join([i [::-1] for i in text.split(" ")])
