@@ -243,3 +243,5 @@ def is_anagram(test, original):
 # not done 
 def reverse_words(text):
     return "".join([i [::-1] for i in text.split(" ")])
+def min_max(lst):
+  return [min(lst), max(lst)]
