@@ -258,3 +258,5 @@ def array_diff(a, b):
         while i in a:
             a.remove(i)
     return a 
+    #def array_diff(a, b):
+    #return [x for x in a if x not in b]
