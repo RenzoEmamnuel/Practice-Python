@@ -245,3 +245,9 @@ def reverse_words(text):
     return "".join([i [::-1] for i in text.split(" ")])
 def min_max(lst):
   return [min(lst), max(lst)]
+def sort_array(source_array):
+    new = sorted([i for i in source_array if i % 2 != 0])  
+    for index,i in enumerate(source_array):
+        if i % 2 == 0:
+            new.insert(index,i)
+    return new
