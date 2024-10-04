@@ -251,3 +251,10 @@ def sort_array(source_array):
         if i % 2 == 0:
             new.insert(index,i)
     return new
+def position(alphabet):
+    return f"Position of alphabet: {ord(alphabet)-96}"
+def array_diff(a, b):
+    for i in b:
+        while i in a:
+            a.remove(i)
+    return a 
