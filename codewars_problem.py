@@ -265,3 +265,12 @@ def queue_time(customers, n): # HARRRRD AS FUCK
     for i in customers:
         cashier_no [cashier_no.index(min(cashier_no))] += i
     return max(cashier_no)
+def solution(s): # HARD TO
+    word = ""
+    for i in s:
+        if i.isupper():
+            word += " "
+            word += i
+        else:
+             word += i
+    return word 
