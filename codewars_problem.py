@@ -260,3 +260,8 @@ def array_diff(a, b):
     return a 
     #def array_diff(a, b):
     #return [x for x in a if x not in b]
+def queue_time(customers, n): # HARRRRD AS FUCK 
+    cashier_no = [0]*n 
+    for i in customers:
+        cashier_no [cashier_no.index(min(cashier_no))] += i
+    return max(cashier_no)
