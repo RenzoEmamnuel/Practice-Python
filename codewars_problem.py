@@ -274,3 +274,6 @@ def solution(s): # HARD TO
         else:
              word += i
     return word 
+def two_sort(array):
+    return "***".join(i for i in min(array))
+    
