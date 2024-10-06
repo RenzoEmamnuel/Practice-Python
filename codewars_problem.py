@@ -280,3 +280,13 @@ def two_sort(array):
 def is_triangle(a, b, c):
     a,b,c =  sorted ([a,b,c])
     return a+b>c
+from statistics import mode
+def find_uniq(arr):
+    x = mode(arr)
+    for i in arr:
+        if i != x :
+            return i
+    #EASIER 
+    def find_uniq(arr):
+    a, b = set(arr)
+    return a if arr.count(a) == 1 else b
