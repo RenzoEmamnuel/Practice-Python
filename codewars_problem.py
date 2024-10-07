@@ -292,3 +292,7 @@ def find_uniq(arr):
     return a if arr.count(a) == 1 else b
 def disemvowel(string):
     return "".join(c for c in string if c.lower() not in "aeiou")
+def tribonacci(signature, n): #HARDDDDDD
+  res = signature[:n]
+  for i in range(n - 3): res.append(sum(res[-3:]))
+  return res
