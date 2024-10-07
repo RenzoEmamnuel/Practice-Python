@@ -290,3 +290,5 @@ def find_uniq(arr):
     def find_uniq(arr):
     a, b = set(arr)
     return a if arr.count(a) == 1 else b
+def disemvowel(string):
+    return "".join(c for c in string if c.lower() not in "aeiou")
