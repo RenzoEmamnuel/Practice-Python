@@ -298,5 +298,5 @@ def tribonacci(signature, n): #HARDDDDDD
   return res
 def pipe_fix(nums):
     return [i for i in range(min(nums),max(nums)+1)]
-    
+    # or list(range(nums[0], nums[-1] + 1))
     
