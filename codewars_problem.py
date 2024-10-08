@@ -299,4 +299,5 @@ def tribonacci(signature, n): #HARDDDDDD
 def pipe_fix(nums):
     return [i for i in range(min(nums),max(nums)+1)]
     # or list(range(nums[0], nums[-1] + 1))
-    
+def row_sum_odd_numbers(n):
+    return n**3
