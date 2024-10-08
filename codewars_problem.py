@@ -296,3 +296,7 @@ def tribonacci(signature, n): #HARDDDDDD
   res = signature[:n]
   for i in range(n - 3): res.append(sum(res[-3:]))
   return res
+def pipe_fix(nums):
+    return [i for i in range(min(nums),max(nums)+1)]
+    
+    
