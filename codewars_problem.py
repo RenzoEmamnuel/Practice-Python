@@ -319,8 +319,4 @@ def friend(x):
 def reverse_letter(st):
     return "".join([i for i in st[::-1] if i.isalpha()])
 def take(arr,n):
-    return [i for i in range(n)]
-    #     x = []
-    #     for i in range(n):
-    #         x += [i]
-    #     return x
+    return arr[:n]
