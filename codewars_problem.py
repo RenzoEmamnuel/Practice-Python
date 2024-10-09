@@ -314,3 +314,5 @@ def expanded_form(num):
     return x.strip("+ ")
 def xo(s):
     return   s.lower().count("x") == s.lower().count("o")
+def friend(x):
+    return [i for i in x if len(i) == 4 ]
