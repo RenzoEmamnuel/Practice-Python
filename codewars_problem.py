@@ -320,3 +320,5 @@ def reverse_letter(st):
     return "".join([i for i in st[::-1] if i.isalpha()])
 def take(arr,n):
     return arr[:n]
+def reverse(st):
+    return " ".join(st.split()[::-1])
