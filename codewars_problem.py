@@ -301,3 +301,14 @@ def pipe_fix(nums):
     # or list(range(nums[0], nums[-1] + 1))
 def row_sum_odd_numbers(n):
     return n**3
+def expanded_form(num):
+    x = ""
+    for i,digit  in enumerate (str(num)) :
+        if digit == "0" :
+            continue
+        else:
+            x += digit + ("0" * (len(str(num)) - i - 1))
+            x += " "
+            x += "+"
+            x += " "
+    return x.strip("+ ")
