@@ -316,3 +316,5 @@ def xo(s):
     return   s.lower().count("x") == s.lower().count("o")
 def friend(x):
     return [i for i in x if len(i) == 4 ]
+def reverse_letter(st):
+    return "".join([i for i in st[::-1] if i.isalpha()])
