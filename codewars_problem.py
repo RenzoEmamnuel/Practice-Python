@@ -312,3 +312,5 @@ def expanded_form(num):
             x += "+"
             x += " "
     return x.strip("+ ")
+def xo(s):
+    return   s.lower().count("x") == s.lower().count("o")
