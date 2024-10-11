@@ -324,3 +324,5 @@ def reverse(st):
     return " ".join(st.split()[::-1])
 def merge_arrays(arr1, arr2):
     return sorted(set(arr1+arr2))
+def bin_to_decimal(inp):
+    return int(inp,2)
