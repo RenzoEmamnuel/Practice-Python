@@ -326,3 +326,5 @@ def merge_arrays(arr1, arr2):
     return sorted(set(arr1+arr2))
 def bin_to_decimal(inp):
     return int(inp,2)
+def no_boring_zeros(n):
+    return int(str(n).strip('0') or 0)
