@@ -328,3 +328,12 @@ def bin_to_decimal(inp):
     return int(inp,2)
 def no_boring_zeros(n):
     return int(str(n).strip('0') or 0)
+def multiplication_table(size): # HAAAAAAAAAAAAAAAAAAAAARD
+    columns = []
+    for i in range(1,size+1):
+        rows = []
+        for j in range(1,size+1):
+            rows.append(i*j)
+        columns.append(rows)
+        
+    return columns
