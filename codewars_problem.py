@@ -337,3 +337,5 @@ def multiplication_table(size): # HAAAAAAAAAAAAAAAAAAAAARD
         columns.append(rows)
         
     return columns
+def print_hello():
+    return "hello world"
