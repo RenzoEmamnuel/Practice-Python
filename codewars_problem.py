@@ -339,3 +339,5 @@ def multiplication_table(size): # HAAAAAAAAAAAAAAAAAAAAARD
     return columns
 def print_hello():
     return "hello world"
+def dna_to_rna(dna):
+    return dna.replace("T","U")
