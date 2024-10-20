@@ -341,3 +341,5 @@ def print_hello():
     return "hello world"
 def dna_to_rna(dna):
     return dna.replace("T","U")
+def hello(name=''):
+    return f"Hello, {name.title() or 'World'}!"
