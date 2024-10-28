@@ -343,3 +343,5 @@ def dna_to_rna(dna):
     return dna.replace("T","U")
 def hello(name=''):
     return f"Hello, {name.title() or 'World'}!"
+def fuck_you_Kristine ():
+    retrun "Im so tired"
