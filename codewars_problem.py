@@ -346,4 +346,4 @@ def hello(name=''):
 def fuck_you_Kristine ():#cheat day # another cheat day fuck it 
     retrun "Im so tired"
     #another cheat day # more cheat day # another #more # more
-    #exam week jusko
+    #exam week jusko # new
