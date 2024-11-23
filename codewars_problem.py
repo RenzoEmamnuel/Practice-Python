@@ -347,7 +347,7 @@ def fuck_you_Kristine ():#cheat day # another cheat day fuck it
     retrun "Im so tired"
     #another cheat day # more cheat day # another #more # more #i cheated
 
-    #exam week jusko # newb #bro so tired #sobrang busy fuck #now na #sigh #renzo #hi # tan asdsaasdsa
+    #exam week jusko # newbvvgb #bro so tired #sobrang busy fuck #now na #sigh #renzo #hi # tan asdsaasdsa
 def hex_to_dec(s):
     return int(s,16)
 def sequence_sum(start, end, step):
