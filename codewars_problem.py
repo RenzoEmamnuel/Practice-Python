@@ -352,3 +352,6 @@ def hex_to_dec(s):
     return int(s,16)
 def sequence_sum(start, end, step):
     return sum(range(start, end+1, step))
+geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+def goose_filter(birds):
+    return [i for i in birds if i not in geese]
