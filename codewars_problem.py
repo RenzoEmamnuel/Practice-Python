@@ -355,3 +355,6 @@ def sequence_sum(start, end, step):
 geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
 def goose_filter(birds):
     return [i for i in birds if i not in geese]
+def capitalize(s):
+    s = ''.join(c if i%2 != 0 else c.upper() for i,c in enumerate(s))
+    return [s, s.swapcase()]
