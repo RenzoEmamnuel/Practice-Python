@@ -358,3 +358,11 @@ def goose_filter(birds):
 def capitalize(s):
     s = ''.join(c if i%2 != 0 else c.upper() for i,c in enumerate(s))
     return [s, s.swapcase()]
+def unique_in_order(iterable):
+    result = []
+    prev = None
+    for char in iterable[0:]:
+        if char != prev:
+            result.append(char)
+            prev = char
+    return result
