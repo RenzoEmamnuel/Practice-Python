@@ -1,7 +1,7 @@
 def replacement ():                                                         #replacement
     x = "hello world!"
     print(x.replace("!","?"))
-def counterfeit():                                                          # counterfeit of a number
+def counterfeit():                                                          # __ counterfeit of a number
     y = 12
     print (-y)
 def loop():                                                                 # loops
