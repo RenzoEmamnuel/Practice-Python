@@ -4,7 +4,7 @@ def replacement ():                                                         #rep
 def counterfeit():                                                          # __ counterfeit of a number
     y = 12
     print (-y)
-def loop():                                                                 # loops
+def loop():                                                                 # loops (Wala lang)
     for count in range(1, 10):
         for x in range(1, count+1):
             print(count, end="")
