@@ -1,2 +1,2 @@
 # Practice Python
- This is where i practice my pthon skills
+ This is where i practice my pthon skills.
