@@ -1,4 +1,4 @@
-def replacement ():                                                         #replacheement hehehehehehehe
+def replacement ():                                                         #replacheement hehehehehehehehe
     x = "hello world!"
     print(x.replace("!","?"))
 def counterfeit():                                                          # __ counterfeit of a number
